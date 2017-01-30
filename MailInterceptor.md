@@ -5,7 +5,8 @@ sending test emails that should not be sent!
 
 ### Step One: /lib/development_mail_interceptor.rb
 
-```class DevelopementMailInterceptor
+```ruby
+class DevelopementMailInterceptor
   def self.delivering_email(message)
     message.subject = "#{message.to} #{message.subject}"
     message.to = 'your email address"
