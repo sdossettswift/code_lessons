@@ -25,9 +25,8 @@ export MAILCHIMP_COVERAGE_BUCKET_ID="*******"`
 ### environment.rb File
 
 `<!-- # Load the Rails application. -->
-require File.expand_path('../application', __FILE__)
-
-<!-- # Initialize the Rails application. -->
+require File.expand_path('../application', __FILE__)`
+`<!-- # Initialize the Rails application. -->
 AppName::Application.initialize!
 ENV['AWS_ACCESS_KEY_ID']
 ENV['AWS_SECRET_ACCESS_KEY']
@@ -37,5 +36,4 @@ ENV['MAILCHIMP_API_KEY']
 ENV['MAILCHIMP_LIST_ID']
 ENV['MAILCHIMP_COVERAGE_GROUP_ID']
 ENV['MAILCHIMP_COVERAGE_BUCKET_ID']
-ENV['MAILCHIMP_ALE_STATUS_GROUP_ID']
-`
+ENV['MAILCHIMP_ALE_STATUS_GROUP_ID']`
