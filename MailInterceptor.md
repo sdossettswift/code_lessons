@@ -9,9 +9,9 @@ sending test emails that should not be sent!
 class DevelopementMailInterceptor
   def self.delivering_email(message)
     message.subject = "#{message.to} #{message.subject}"
-    message.to = 'your email address"
-    message.bcc = ""
-    message.cc = ""
+    message.to = "your email address"
+    message.bcc = " "
+    message.cc = " "
   end
 end
 ```
