@@ -7,3 +7,4 @@ All of my sandbox exploration is valuable, so long as I capture it. :)
 Topics Covered:
 - Environment Variables
 - Mail Interceptor
+- Sidekiq
