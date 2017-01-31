@@ -8,3 +8,4 @@ Topics Covered:
 - Environment Variables
 - Mail Interceptor
 - Sidekiq
+- Print screen in rails app
